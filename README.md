@@ -24,7 +24,7 @@ Overall, this project seeks to develop advanced control strategies to improve ve
 - The code was created and tested on the Matlab/Simulink 2023a environment
 
 # File description
-The repository contains three files to run the project.  
+The repository contains two main files to run the project.  
 
 1. **Report_project**: This contains the explanation of the complete process, the mathematical formulations, and the control configuration.
 
