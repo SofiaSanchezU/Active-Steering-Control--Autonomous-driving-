@@ -38,5 +38,5 @@ The repository contains three files to run the project.
 3. Select the controler
 
 <p align="center">
-  <img src="Images/Results.png" alt="Texto alternativo" width="400">
+  <img src="Images/Results.png" alt="Texto alternativo" width="600">
 </p>
