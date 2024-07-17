@@ -15,25 +15,28 @@ Overall, this project seeks to develop advanced control strategies to improve ve
 
 # Process  
 1.  The projec starts finding the mamtematial description of the model.
-2.	The dynamic system is linearized using a S-function and trim build-in function of Simulink.
+2.	The dynamic system is build using Matlab/Simulink.
 3.	Study of Structural Properties. 
-4.	Compute the Finite Time Horizon Linear Quadratic (LQ) Optimal Control for **"Regulation problem"**
-5.	Compute the Finite Time Horizon Linear Quadratic (LQ) Optimal Control for **"Tracking problem"**
+4.	Desing the Optimal controls
+5.	Desing Robust control
 
 # Prerequisites
 - The code was created and tested on the Matlab/Simulink 2023a environment
 
 # File description
-The repository contains three files to run the project.
-2. **Report_project_optimal**: This contains the explanation of the complete process, the mathematical formulations, and the control configuration.
+The repository contains three files to run the project.  
 
-1. **Code**: This file contains all the necessary MATLAB/Simulink programs
+1. **Report_project**: This contains the explanation of the complete process, the mathematical formulations, and the control configuration.
+
+2. **Code**: This file contains all the necessary MATLAB/Simulink programs
 
 # Example to run the experiment  
-**"Ball and Beam"**
+
 ### Matlab/Simulink simulation 
 1. Download the files.
-2. To perform the regulation problem run the Matlab file "**ball_beam_regulation**".
-3. To perform the tracking problem run the Matlab file "**ball_beam_tracking**".
-4. To perform the tracking problem with an integrator run the Matlab file "**ball_beam_track_with_integrator**".
-5. The plots should start to show the results
+2. Run the matlab program **CONTROL_ROLL_OVER**
+3. Select the controler
+
+<p align="center">
+  <img src="Images/Results.png" alt="Texto alternativo" width="400">
+</p>
